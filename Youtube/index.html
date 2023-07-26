@@ -1,0 +1,821 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Youtube Home Page</title>
+  </head>
+  <body>
+    <div class="screen">
+      <div class="header">
+        <div class="left">
+          <div class="menudiv">
+            <img class="menuicon" src="./asserts/hamburger.png" alt="menu" />
+          </div>
+          <div class="ytdiv">
+            <img
+              class="yticon"
+              src="./asserts/youtube.png"
+              alt="Youtube Icon"
+            />
+          </div>
+        </div>
+        <div class="middle">
+          <div class="search">
+            <div class="searchbar">
+              <input placeholder="Search" id="search" type="text" />
+              <div class="searchicon">
+                <img id="searchicon" src="./asserts/search.png" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="mic">
+            <img id="mic" src="./asserts/voice.png" alt="mic" />
+          </div>
+        </div>
+        <div class="right">
+          <div class="add-vid">
+            <img
+              id="add-vid"
+              src="./asserts/add-video.png"
+              alt="create"
+              title="create"
+            />
+          </div>
+          <div class="notification">
+            <img id="notification" src="./asserts/bell.png" alt="bell" />
+          </div>
+          <div class="avatar">
+            <img id="avatar" src="./asserts/man.png" alt="" />
+          </div>
+        </div>
+      </div>
+      <div class="main">
+        <div class="appbar">
+          <div class="upper">
+            <div class="home hoverbg">
+              <span class="marginright">
+                <img class="pic" src="./asserts/home.png" alt="home" />
+              </span>
+              <span>Home</span>
+            </div>
+            <div class="shorts hoverbg">
+              <span class="marginright">
+                <img class="pic" src="./asserts/short-film.png" alt="home" />
+              </span>
+              <span>Shorts</span>
+            </div>
+            <div class="subscription hoverbg">
+              <span class="marginright">
+                <img class="pic" src="./asserts/subscribe.png" alt="home" />
+              </span>
+              <span>Subscription</span>
+            </div>
+          </div>
+          <div class="mid">
+            <div class="library hoverbg">
+              <span class="marginright">
+                <img class="pic" src="./asserts/library.png" alt="home" />
+              </span>
+              <span>Library</span>
+            </div>
+            <div class="history hoverbg">
+              <span class="marginright">
+                <img class="pic" src="./asserts/history.png" alt="home" />
+              </span>
+              <span>History</span>
+            </div>
+            <div class="your-videos hoverbg">
+              <span class="marginright">
+                <img class="pic" src="./asserts/youtube (1).png" alt="home" />
+              </span>
+              <span>Your Videos</span>
+            </div>
+            <div class="watch-later hoverbg">
+              <span class="marginright">
+                <img class="pic" src="./asserts/clock.png" alt="home" />
+              </span>
+              <span>Watch Later</span>
+            </div>
+            <div class="liked hoverbg">
+              <span class="marginright">
+                <img class="pic" src="./asserts/like.png" alt="home" />
+              </span>
+              <span>Liked Videos</span>
+            </div>
+            <div class="show-more hoverbg">
+              <span class="marginright">
+                <img class="pic" src="./asserts/down-arrow.png" alt="home" />
+              </span>
+              <span>Show more</span>
+            </div>
+          </div>
+          <div class="lowermid">
+            <div id="sub">Subscriptions</div>
+            <div class="subscription hoverbg">
+              <span class="marginright">
+                <img class="pic1" src="./asserts/boy.png" alt="home" />
+              </span>
+              <span>Codeit Dev</span>
+            </div>
+            <div class="subscription hoverbg">
+              <span class="marginright">
+                <img class="pic1" src="./asserts/boy.png" alt="home" />
+              </span>
+              <span>Codeit Dev</span>
+            </div>
+            <div class="subscription hoverbg">
+              <span class="marginright">
+                <img class="pic1" src="./asserts/boy.png" alt="home" />
+              </span>
+              <span>Codeit Dev</span>
+            </div>
+            <div class="subscription hoverbg">
+              <span class="marginright">
+                <img class="pic1" src="./asserts/boy.png" alt="home" />
+              </span>
+              <span>Codeit Dev</span>
+            </div>
+            <div class="subscription hoverbg">
+              <span class="marginright">
+                <img class="pic1" src="./asserts/boy.png" alt="home" />
+              </span>
+              <span>Codeit Dev</span>
+            </div>
+
+            <div class="subscription hoverbg">
+              <span class="marginright">
+                <img class="pic" src="./asserts/down-arrow.png" alt="home" />
+              </span>
+              <span>Show More</span>
+            </div>
+          </div>
+          <div class="lower">
+            <div id="explore">Explore</div>
+            <div class="explore hoverbg">
+              <span class="marginright">
+                <img class="pic" src="./asserts/shuriken.png" alt="home" />
+              </span>
+              <span>Shuriken</span>
+            </div>
+            <div class="explore hoverbg">
+              <span class="marginright">
+                <img class="pic" src="./asserts/shuriken.png" alt="home" />
+              </span>
+              <span>Shuriken</span>
+            </div>
+            <div class="explore hoverbg">
+              <span class="marginright">
+                <img class="pic" src="./asserts/shuriken.png" alt="home" />
+              </span>
+              <span>Shuriken</span>
+            </div>
+            <div class="explore hoverbg">
+              <span class="marginright">
+                <img class="pic" src="./asserts/shuriken.png" alt="home" />
+              </span>
+              <span>Shuriken</span>
+            </div>
+            <div class="explore hoverbg">
+              <span class="marginright">
+                <img class="pic" src="./asserts/shuriken.png" alt="home" />
+              </span>
+              <span>Shuriken</span>
+            </div>
+
+            <div class="explore hoverbg">
+              <span class="marginright">
+                <img class="pic" src="./asserts/shuriken.png" alt="home" />
+              </span>
+              <span>Shuriken</span>
+            </div>
+            <div class="explore hoverbg">
+              <span class="marginright">
+                <img class="pic" src="./asserts/shuriken.png" alt="home" />
+              </span>
+              <span>Shuriken</span>
+            </div>
+            <div class="explore hoverbg">
+              <span class="marginright">
+                <img class="pic" src="./asserts/shuriken.png" alt="home" />
+              </span>
+              <span>Shuriken</span>
+            </div>
+            <div class="explore hoverbg">
+              <span class="marginright">
+                <img class="pic" src="./asserts/shuriken.png" alt="home" />
+              </span>
+              <span>Shuriken</span>
+            </div>
+          </div>
+        </div>
+        <div class="content">
+          <div class="filters"></div>
+          <div class="mainContent">
+            <div class="vid">
+              <div class="vidcard">
+                <div class="thumbnail">
+                  <img
+                    class="placeholderimage"
+                    src="./asserts/image.jpg"
+                    alt=""
+                  />
+                </div>
+                <div class="title">
+                  <div class="profilepic">
+                    <img src="./asserts/man (1).png" alt="" />
+                  </div>
+                  <div class="description">
+                    <p class="vidtitle">Coding Youtube clone - HTML CSS only</p>
+                    <div>
+                      <p class="descreption1 gray">I am Channel Name</p>
+                      <p class="descreption gray">
+                        1M Views &bull; 1 month ago
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="vid">
+              <div class="vidcard">
+                <div class="thumbnail">
+                  <img
+                    class="placeholderimage"
+                    src="./asserts/image.jpg"
+                    alt=""
+                  />
+                </div>
+                <div class="title">
+                  <div class="profilepic">
+                    <img src="./asserts/man (1).png" alt="" />
+                  </div>
+                  <div class="description">
+                    <p class="vidtitle">Coding Youtube clone - HTML CSS only</p>
+                    <div>
+                      <p class="descreption1 gray">I am Channel Name</p>
+                      <p class="descreption gray">
+                        1M Views &bull; 1 month ago
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="vid">
+              <div class="vidcard">
+                <div class="thumbnail">
+                  <img
+                    class="placeholderimage"
+                    src="./asserts/image.jpg"
+                    alt=""
+                  />
+                </div>
+                <div class="title">
+                  <div class="profilepic">
+                    <img src="./asserts/man (1).png" alt="" />
+                  </div>
+                  <div class="description">
+                    <p class="vidtitle">Coding Youtube clone - HTML CSS only</p>
+                    <div>
+                      <p class="descreption1 gray">I am Channel Name</p>
+                      <p class="descreption gray">
+                        1M Views &bull; 1 month ago
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="vid">
+              <div class="vidcard">
+                <div class="thumbnail">
+                  <img
+                    class="placeholderimage"
+                    src="./asserts/image.jpg"
+                    alt=""
+                  />
+                </div>
+                <div class="title">
+                  <div class="profilepic">
+                    <img src="./asserts/man (1).png" alt="" />
+                  </div>
+                  <div class="description">
+                    <p class="vidtitle">Coding Youtube clone - HTML CSS only</p>
+                    <div>
+                      <p class="descreption1 gray">I am Channel Name</p>
+                      <p class="descreption gray">
+                        1M Views &bull; 1 month ago
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="vid">
+              <div class="vidcard">
+                <div class="thumbnail">
+                  <img
+                    class="placeholderimage"
+                    src="./asserts/image.jpg"
+                    alt=""
+                  />
+                </div>
+                <div class="title">
+                  <div class="profilepic">
+                    <img src="./asserts/man (1).png" alt="" />
+                  </div>
+                  <div class="description">
+                    <p class="vidtitle">Coding Youtube clone - HTML CSS only</p>
+                    <div>
+                      <p class="descreption1 gray">I am Channel Name</p>
+                      <p class="descreption gray">
+                        1M Views &bull; 1 month ago
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="vid">
+              <div class="vidcard">
+                <div class="thumbnail">
+                  <img
+                    class="placeholderimage"
+                    src="./asserts/image.jpg"
+                    alt=""
+                  />
+                </div>
+                <div class="title">
+                  <div class="profilepic">
+                    <img src="./asserts/man (1).png" alt="" />
+                  </div>
+                  <div class="description">
+                    <p class="vidtitle">Coding Youtube clone - HTML CSS only</p>
+                    <div>
+                      <p class="descreption1 gray">I am Channel Name</p>
+                      <p class="descreption gray">
+                        1M Views &bull; 1 month ago
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="vid">
+              <div class="vidcard">
+                <div class="thumbnail">
+                  <img
+                    class="placeholderimage"
+                    src="./asserts/image.jpg"
+                    alt=""
+                  />
+                </div>
+                <div class="title">
+                  <div class="profilepic">
+                    <img src="./asserts/man (1).png" alt="" />
+                  </div>
+                  <div class="description">
+                    <p class="vidtitle">Coding Youtube clone - HTML CSS only</p>
+                    <div>
+                      <p class="descreption1 gray">I am Channel Name</p>
+                      <p class="descreption gray">
+                        1M Views &bull; 1 month ago
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="vid">
+              <div class="vidcard">
+                <div class="thumbnail">
+                  <img
+                    class="placeholderimage"
+                    src="./asserts/image.jpg"
+                    alt=""
+                  />
+                </div>
+                <div class="title">
+                  <div class="profilepic">
+                    <img src="./asserts/man (1).png" alt="" />
+                  </div>
+                  <div class="description">
+                    <p class="vidtitle">Coding Youtube clone - HTML CSS only</p>
+                    <div>
+                      <p class="descreption1 gray">I am Channel Name</p>
+                      <p class="descreption gray">
+                        1M Views &bull; 1 month ago
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="vid">
+              <div class="vidcard">
+                <div class="thumbnail">
+                  <img
+                    class="placeholderimage"
+                    src="./asserts/image.jpg"
+                    alt=""
+                  />
+                </div>
+                <div class="title">
+                  <div class="profilepic">
+                    <img src="./asserts/man (1).png" alt="" />
+                  </div>
+                  <div class="description">
+                    <p class="vidtitle">Coding Youtube clone - HTML CSS only</p>
+                    <div>
+                      <p class="descreption1 gray">I am Channel Name</p>
+                      <p class="descreption gray">
+                        1M Views &bull; 1 month ago
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="vid">
+              <div class="vidcard">
+                <div class="thumbnail">
+                  <img
+                    class="placeholderimage"
+                    src="./asserts/image.jpg"
+                    alt=""
+                  />
+                </div>
+                <div class="title">
+                  <div class="profilepic">
+                    <img src="./asserts/man (1).png" alt="" />
+                  </div>
+                  <div class="description">
+                    <p class="vidtitle">Coding Youtube clone - HTML CSS only</p>
+                    <div>
+                      <p class="descreption1 gray">I am Channel Name</p>
+                      <p class="descreption gray">
+                        1M Views &bull; 1 month ago
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="vid">
+              <div class="vidcard">
+                <div class="thumbnail">
+                  <img
+                    class="placeholderimage"
+                    src="./asserts/image.jpg"
+                    alt=""
+                  />
+                </div>
+                <div class="title">
+                  <div class="profilepic">
+                    <img src="./asserts/man (1).png" alt="" />
+                  </div>
+                  <div class="description">
+                    <p class="vidtitle">Coding Youtube clone - HTML CSS only</p>
+                    <div>
+                      <p class="descreption1 gray">I am Channel Name</p>
+                      <p class="descreption gray">
+                        1M Views &bull; 1 month ago
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="vid">
+              <div class="vidcard">
+                <div class="thumbnail">
+                  <img
+                    class="placeholderimage"
+                    src="./asserts/image.jpg"
+                    alt=""
+                  />
+                </div>
+                <div class="title">
+                  <div class="profilepic">
+                    <img src="./asserts/man (1).png" alt="" />
+                  </div>
+                  <div class="description">
+                    <p class="vidtitle">Coding Youtube clone - HTML CSS only</p>
+                    <div>
+                      <p class="descreption1 gray">I am Channel Name</p>
+                      <p class="descreption gray">
+                        1M Views &bull; 1 month ago
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="vid">
+              <div class="vidcard">
+                <div class="thumbnail">
+                  <img
+                    class="placeholderimage"
+                    src="./asserts/image.jpg"
+                    alt=""
+                  />
+                </div>
+                <div class="title">
+                  <div class="profilepic">
+                    <img src="./asserts/man (1).png" alt="" />
+                  </div>
+                  <div class="description">
+                    <p class="vidtitle">Coding Youtube clone - HTML CSS only</p>
+                    <div>
+                      <p class="descreption1 gray">I am Channel Name</p>
+                      <p class="descreption gray">
+                        1M Views &bull; 1 month ago
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="vid">
+              <div class="vidcard">
+                <div class="thumbnail">
+                  <img
+                    class="placeholderimage"
+                    src="./asserts/image.jpg"
+                    alt=""
+                  />
+                </div>
+                <div class="title">
+                  <div class="profilepic">
+                    <img src="./asserts/man (1).png" alt="" />
+                  </div>
+                  <div class="description">
+                    <p class="vidtitle">Coding Youtube clone - HTML CSS only</p>
+                    <div>
+                      <p class="descreption1 gray">I am Channel Name</p>
+                      <p class="descreption gray">
+                        1M Views &bull; 1 month ago
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="vid">
+              <div class="vidcard">
+                <div class="thumbnail">
+                  <img
+                    class="placeholderimage"
+                    src="./asserts/image.jpg"
+                    alt=""
+                  />
+                </div>
+                <div class="title">
+                  <div class="profilepic">
+                    <img src="./asserts/man (1).png" alt="" />
+                  </div>
+                  <div class="description">
+                    <p class="vidtitle">Coding Youtube clone - HTML CSS only</p>
+                    <div>
+                      <p class="descreption1 gray">I am Channel Name</p>
+                      <p class="descreption gray">
+                        1M Views &bull; 1 month ago
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="vid">
+              <div class="vidcard">
+                <div class="thumbnail">
+                  <img
+                    class="placeholderimage"
+                    src="./asserts/image.jpg"
+                    alt=""
+                  />
+                </div>
+                <div class="title">
+                  <div class="profilepic">
+                    <img src="./asserts/man (1).png" alt="" />
+                  </div>
+                  <div class="description">
+                    <p class="vidtitle">Coding Youtube clone - HTML CSS only</p>
+                    <div>
+                      <p class="descreption1 gray">I am Channel Name</p>
+                      <p class="descreption gray">
+                        1M Views &bull; 1 month ago
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="vid">
+              <div class="vidcard">
+                <div class="thumbnail">
+                  <img
+                    class="placeholderimage"
+                    src="./asserts/image.jpg"
+                    alt=""
+                  />
+                </div>
+                <div class="title">
+                  <div class="profilepic">
+                    <img src="./asserts/man (1).png" alt="" />
+                  </div>
+                  <div class="description">
+                    <p class="vidtitle">Coding Youtube clone - HTML CSS only</p>
+                    <div>
+                      <p class="descreption1 gray">I am Channel Name</p>
+                      <p class="descreption gray">
+                        1M Views &bull; 1 month ago
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="vid">
+              <div class="vidcard">
+                <div class="thumbnail">
+                  <img
+                    class="placeholderimage"
+                    src="./asserts/image.jpg"
+                    alt=""
+                  />
+                </div>
+                <div class="title">
+                  <div class="profilepic">
+                    <img src="./asserts/man (1).png" alt="" />
+                  </div>
+                  <div class="description">
+                    <p class="vidtitle">Coding Youtube clone - HTML CSS only</p>
+                    <div>
+                      <p class="descreption1 gray">I am Channel Name</p>
+                      <p class="descreption gray">
+                        1M Views &bull; 1 month ago
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="vid">
+              <div class="vidcard">
+                <div class="thumbnail">
+                  <img
+                    class="placeholderimage"
+                    src="./asserts/image.jpg"
+                    alt=""
+                  />
+                </div>
+                <div class="title">
+                  <div class="profilepic">
+                    <img src="./asserts/man (1).png" alt="" />
+                  </div>
+                  <div class="description">
+                    <p class="vidtitle">Coding Youtube clone - HTML CSS only</p>
+                    <div>
+                      <p class="descreption1 gray">I am Channel Name</p>
+                      <p class="descreption gray">
+                        1M Views &bull; 1 month ago
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="vid">
+              <div class="vidcard">
+                <div class="thumbnail">
+                  <img
+                    class="placeholderimage"
+                    src="./asserts/image.jpg"
+                    alt=""
+                  />
+                </div>
+                <div class="title">
+                  <div class="profilepic">
+                    <img src="./asserts/man (1).png" alt="" />
+                  </div>
+                  <div class="description">
+                    <p class="vidtitle">Coding Youtube clone - HTML CSS only</p>
+                    <div>
+                      <p class="descreption1 gray">I am Channel Name</p>
+                      <p class="descreption gray">
+                        1M Views &bull; 1 month ago
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="vid">
+              <div class="vidcard">
+                <div class="thumbnail">
+                  <img
+                    class="placeholderimage"
+                    src="./asserts/image.jpg"
+                    alt=""
+                  />
+                </div>
+                <div class="title">
+                  <div class="profilepic">
+                    <img src="./asserts/man (1).png" alt="" />
+                  </div>
+                  <div class="description">
+                    <p class="vidtitle">Coding Youtube clone - HTML CSS only</p>
+                    <div>
+                      <p class="descreption1 gray">I am Channel Name</p>
+                      <p class="descreption gray">
+                        1M Views &bull; 1 month ago
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="vid">
+              <div class="vidcard">
+                <div class="thumbnail">
+                  <img
+                    class="placeholderimage"
+                    src="./asserts/image.jpg"
+                    alt=""
+                  />
+                </div>
+                <div class="title">
+                  <div class="profilepic">
+                    <img src="./asserts/man (1).png" alt="" />
+                  </div>
+                  <div class="description">
+                    <p class="vidtitle">Coding Youtube clone - HTML CSS only</p>
+                    <div>
+                      <p class="descreption1 gray">I am Channel Name</p>
+                      <p class="descreption gray">
+                        1M Views &bull; 1 month ago
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="vid">
+              <div class="vidcard">
+                <div class="thumbnail">
+                  <img
+                    class="placeholderimage"
+                    src="./asserts/image.jpg"
+                    alt=""
+                  />
+                </div>
+                <div class="title">
+                  <div class="profilepic">
+                    <img src="./asserts/man (1).png" alt="" />
+                  </div>
+                  <div class="description">
+                    <p class="vidtitle">Coding Youtube clone - HTML CSS only</p>
+                    <div>
+                      <p class="descreption1 gray">I am Channel Name</p>
+                      <p class="descreption gray">
+                        1M Views &bull; 1 month ago
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="vid">
+              <div class="vidcard">
+                <div class="thumbnail">
+                  <img
+                    class="placeholderimage"
+                    src="./asserts/image.jpg"
+                    alt=""
+                  />
+                </div>
+                <div class="title">
+                  <div class="profilepic">
+                    <img src="./asserts/man (1).png" alt="" />
+                  </div>
+                  <div class="description">
+                    <p class="vidtitle">Coding Youtube clone - HTML CSS only</p>
+                    <div>
+                      <p class="descreption1 gray">I am Channel Name</p>
+                      <p class="descreption gray">
+                        1M Views &bull; 1 month ago
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
